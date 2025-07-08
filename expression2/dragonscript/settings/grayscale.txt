@@ -1,27 +1,9 @@
 @name dragonscript/settings/grayscale
 @persist #Whatever you need for custom cosmetic code to work!
-function cosmeticAdd(){} 
-function cosmeticSet(){}
-function number cosmeticGet(){}
-function cosmeticGetBone(){}
-function cosmeticSetBone(){}
-function cosmeticManipulate(){}
-function cosmeticParent(){}
-function cosmeticPos(){}
-function cosmeticAng(){}
-function cosmeticScale(){}
-function cosmeticMaterial(){}
-function cosmeticColor(){}
-function cosmeticAlpha(){}
-function cosmeticModel(){}
-function cosmeticSkin(){}
-function cosmeticClip(){}
-function cosmeticSubMaterial(){}
-function cosmeticBodyGroup(){}
-function cosmeticDelete(){}
-function number cosmeticFudge(){}
+#Nowadays, this giant block of code isnt needed (hopefully) due to syntax changes in E2
 #include "dragonscript/cosmeticlib"
-SettingsVersion = "2.2.0" #Don't touch this
+
+SettingsVersion = "2.2.7" #Don't touch this
     
 #--Config Start!--
 Prefix = "" #Additional name text that comes before the actual name, ignored by chat/search. Add spaces or newlines (\n) here.
