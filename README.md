@@ -1,5 +1,6 @@
-# Dragonscript (Magnum's Dragon V2.2.2)
+# Dragonscript (Magnum's Dragon V2.2.7)
 The New and Improved Dragon Script (E2) for Garry's Mod.
+Improvements and fixes by lordarathres2. All credit for the original E2 goes to Magnum!
 ## Installation Instructions
 Note, if you do not **follow these instructions _exactly,_**
 # IT WILL NOT WORK.

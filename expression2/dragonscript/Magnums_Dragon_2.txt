@@ -5,13 +5,13 @@
 @model models/hunter/blocks/cube075x075x075.mdl
 
 #For draconic care instructions, please see dragonscript/How_To_Maintain_Your_Dragon.txt!
-#For updates for the Dragonscript E2, check out where you probably got it: https://github.com/MagnumMacKivler/dragonscript
+#For updates for the Dragonscript E2, check out where you probably got it: https://github.com/Aqua-Vision/dragonscript
 
 #To Do
 #Replace Lights with Splights
 
 if(first()|duped()){ if(duped()){ reset(), exit() }, #include "dragonscript/init", setName("Magnums Dragon 2")
-    Version = "2.2.6"
+    Version = "2.2.7"
     
     #Config: Which Dragon Settings file do you want to load?
     #include "dragonscript/settings/grayscale"
@@ -434,7 +434,7 @@ if(first()|duped()){ if(duped()){ reset(), exit() }, #include "dragonscript/init
         E:setAlpha(0)
     
         #ifdef httpRequest(string)
-            httpRequest("https://raw.githubusercontent.com/MagnumMacKivler/dragonscript/master/version.txt")
+            httpRequest("https://raw.githubusercontent.com/Aqua-Vision/dragonscript/refs/heads/master/version.txt")
             runOnHTTP(1)
         #else
             dprint("HTTP Core is disabled on your server. Automatic version checking is disabled.")
